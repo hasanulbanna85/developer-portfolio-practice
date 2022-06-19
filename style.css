@@ -7,6 +7,10 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 p {
     color: rgb(105, 105, 105);
 }
@@ -15,19 +19,24 @@ p {
     color: orange;
 }
 
-.top-banner {
+.flexable-container {
     display: flex;
+    margin-bottom: 150px;
+}
+
+.top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
 
 .half-width {
     width: 50%;
-    padding-left: 80px;
+    margin-left: 5%;
+    padding-left: 2%;
 }
 
 .half-width img {
-    width: 80%;
+    width: 90%;
 }
 
 .link-button {
@@ -38,4 +47,10 @@ p {
     color: white;
     font-weight: 700;
 
+}
+
+.bream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
